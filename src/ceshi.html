@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+  <style type="text/css">
+    .main{
+        background-color: red;
+        /* display: inline-flex;父div设置该属性 */
+        display: inline-flex;
+    }
+    .main>div{
+      width: 50px;
+      height: 50px;
+      border: 1px solid blue;
+      box-sizing: border-box;/*这是css3属性，如果不懂，请继续往下阅读*/
+      /*float:left;这个属性就不需要了，会自动浮动*/
+    }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+  </div>
+</body>
+</html>
