@@ -4,6 +4,7 @@
             <router-link :to="{path:'home'}" :class="$style.more">显示更多 >></router-link>
             <slider :options="options" :items="items" cname="productSlider"></slider>
         </div>
+        <div></div>
     </Panel>    
 </template>
 
